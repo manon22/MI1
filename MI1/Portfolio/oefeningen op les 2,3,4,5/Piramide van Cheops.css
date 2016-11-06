@@ -1,0 +1,31 @@
+body { 
+background-color:bisque;
+border-color: gray;
+font-family: cursive;
+}
+
+h1 { color: crimson;
+border-color: crimson;
+text-align: center;
+text-decoration: underline;
+}
+
+h2 { color: grey;
+margin 70px 000;
+font-variant: small-caps;
+font-size: 160%;
+font-style: italic;
+font-weight: normal;
+text-align: center;
+color: teal;
+
+}
+h3{ color: grey;
+}
+
+p {color: mediumseagreen;
+}
+ul {color: orangered;}
+em {background-color: yellow;}
+p {text-align: "serif";}
+
