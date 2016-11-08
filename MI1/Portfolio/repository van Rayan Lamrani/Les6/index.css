@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+}
+
+p.antwoord:hover
+{
+  color: black;
+}
+
+p.antwoord{
+    background-color: aqua;
+    color: aqua;
+}
+p.vraag{
+    color: black;
+}

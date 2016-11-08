@@ -1,0 +1,20 @@
+html {
+    background: -webkit-linear-gradient(red, orange);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    background-color: #AA6C39;
+    width: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15pt;
+}
+
+h1 {
+    font-family: inherit;
+    font-size: 20pt;
+    color: #27576B;
+}

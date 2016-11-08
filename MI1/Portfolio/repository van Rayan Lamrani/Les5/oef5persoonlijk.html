@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" >
+		<meta name="description" content="beschrijving van de webpagina" >
+		<meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+		<meta name="viewport" content="width=device-width, height=device-height" />
+        <link rel="stylesheet" type="text/css" href="les5.css" />
+
+		<title>Les 5</title>
+
+	</head>
+	<body>
+				
+		<h1>Persoonlijke voorkeuren</h1> <br>
+        
+        
+ <form action="contact.php" method="post">
+     <fieldset id="gegevens">
+         <legend>Mijn voorkeuren</legend>
+         
+         <label for="lievelingskleur">Lievelingskleur</label>
+         <input id="lievelingskleur" name="lievelingskleur" type="text" required>	
+         <br>
+         <label>Favoriete seizoen</label>
+         <input type="radio" name="favorieteSeizoen" id="Herfst" /><label for="Herfst">Herfst</label> 
+		 <input type="radio" name="favorieteSeizoen" id="winter" /><label for="winter">winter</label> 
+	     <input type="radio" name="favorieteSeizoen" id="Lente" /><label for="Lente">Lente</label> 
+		 <input type="radio" name="favorieteSeizoen" id="zomer" /><label for="zomer">zomer</label> 
+		 
+			<br>
+         
+         <label>Favoriete maand van het jaar</label>
+
+		 <select id="maand">
+			<option selected disabled>-- Kies een maand--</option>
+			
+			<option   value="Februari">Februari</option>
+			<option   value="Maart">Maart</option>
+			<option   value="Januari">Januari</option>
+		 </select>
+         <br>
+         		
+        <label>Ik vind mezelf</label>
+		<input type="checkbox" id="vriendelijk"><label for="vriendelijk">Vriendelijk</label> 
+		<input type="checkbox" id="sportief"><label for="sportief">Sportief</label> 
+		<input type="checkbox" id="energiek"><label for="energiek">Energiek</label> 
+		<input type="checkbox" id="leergierig"><label for="leergierig">Leergierig</label> 
+         <br>
+        <label for="invul">Als ik een avond vrij heb,dan...</label><br />
+        <label for="invul"> </label>
+        <textarea id="invul" name="invul"> </textarea><br>
+         
+         
+     </fieldset>
+     
+     <fieldset id="submit">
+        <legend>Formulier ingevuld</legend>
+        <input type="button" name="verzenden" id="verzenden" value="Formulier verzenden">
+     </fieldset>
+     
+ </form> 
+      
+	 	<br>
+		 <a href="../index.html">Terug naar index</a>
+	</body>
+</html>
+
+
+
+
+ 
