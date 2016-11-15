@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine
+}
+p.Antwoord
+{
+    background-color: crimson;
+    color: crimson;
+}
+p.Antwoord:hover
+{
+    color: black;
+}
+p.Vraag
+{
+    background-color: beige;
+    color:black;
+}
