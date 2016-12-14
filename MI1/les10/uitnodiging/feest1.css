@@ -1,0 +1,29 @@
+article {
+            list-style-type: none;
+            margin: px;
+            padding: 0px 20px 20px 0px;
+            overflow: auto;
+}
+        
+        
+li {
+    float: right;
+    border-width: 1px;
+    background-color: ;
+    width: 130px;
+}
+        
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    width: 100px;
+    font-size: 20px;
+}
+        
+li a:hover:not(.active) {
+    background-color: greenyellow;
+}
+        
