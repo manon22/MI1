@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="beschrijving van de webpagina">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <link rel="stylesheet" href="background.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="shortcut icon" href="LOGO%20(2).ico" />
+    <title>Mai care</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav> <img src="LOGO%20(2).jpg" alt="logo" style="width:115px;height:120px;" padding="1px 8px 2px 8px" ;>
+            <ul class="taal">
+                <il><a class="big" href="index.html">*Français</a></il>
+                <il><a class="big" href="indexNe.html">*Néerlandais</a></il>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="lesMassages.html">Les Massages</a></li>
+            <li><a class="active" href="navbar.Text.html">Contact</a></li>
+            <li><a href="horaires.html">Horaires/Tarifs</a></li>
+            <li><a href="adres.html">Adresse</a></li>
+        </ul>
+        <article>
+            <h1 class="titel">Contacts</h1>
+            <p><small>Réserver votre rendez-vous</small></p>
+            <form action="manonmichiels@hotmail.com" method="post"> </form>
+            <fieldset id="persoon">
+                <legend><strong><em>Reservation</em></strong></legend>
+                <label for="naam">Prénom</label> :
+                <input type="text" id="nom" name="nom" placeholder="Prénom">
+                <br>
+                <label for="naam">Nom de famille</label> :
+                <input type="text" id="nom" name="nom" placeholder="Nom de famille">
+                <br>
+                <h2>Type de massage</h2>
+                <input type="checkbox" id="type">
+                <label for="type">Massage de la tête et du visage</label>
+                <br>
+                <input type="checkbox" id="type">
+                <label for="type">Massage des bras et mains</label>
+                <br>
+                <input type="checkbox" id="type">
+                <label for="type">Massage des jambes et pieds</label>
+                <br>
+                <input type="checkbox" id="type">
+                <label for="type">Massage du corp</label>
+                <br>
+                <input type="checkbox" id="type">
+                <label for="type">Tous les massages</label>
+                <br>
+                <p></p>
+                <input type="date" id="datum">
+                <p></p>
+                <select id="uur" name="uur">
+                    <option disabled selected>Temps requis</option>
+                    <option value="1u">1 heure</option>
+                    <option value="2u">2 heures</option>
+                </select>
+                <h3>Commentaire/Questions?</h3>
+                <textarea id="mening">Écrivez ici...</textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Envoyer votre réservation</legend>
+                <input id="send" type="submit" value="Envoyer">
+                <label for="verstuur" a></label>
+                <br> </fieldset>
+        </article>
+        <div>
+            <footer>Le bonheur d'un massage traditionnel.</footer> &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>, Mai Care</div>
+    </div>
+</body>
+
+</html>

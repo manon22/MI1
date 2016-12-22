@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="beschrijving van de webpagina">
+    <meta name="keywords" content="Mai Care, Massage, Groot-Bijgaarden">
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <link rel="stylesheet" href="background.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="shortcut icon" href="LOGO%20(2).ico" />
+    <title>Mai care</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="container">
+        <nav> <img src="LOGO%20(2).jpg" alt="logo" style="width:115px;height:120px;" padding="1px 8px 2px 8px" ;>
+            <ul class="taal">
+                <il><a class="big" href="index.html">*Français</a></il>
+                <il><a class="big" href="indexNe.html">*Néerlandais</a></il>
+            </ul>
+        </nav>
+        <ul>
+            <li><a class="active" href="indexNe.html">Home</a></li>
+            <li><a href="lesMassagesNe.html">De massages</a></li>
+            <li><a href="navbar.TextNe.html">Contact</a></li>
+            <li><a href="horairesNe.html">Dienstregeling/Prijzen</a></li>
+            <li><a href="adresNe.html">Adres</a></li>
+        </ul>
+        <article>
+            <h1 class="titel">Adres</h1>
+            <p class="adres">Mai Care, Traditionele Thaise massage:</p>
+            <p class="adres">Emile de Blutslaan, 23</p>
+            <p class="adres">1702 Groot Bijgaarden</p>
+            <p class="adres">GSM : 0489.43.74.13</p>
+            <fieldset class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d5036.449404559121!2d4.2618537!3d50.8640397!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47c3c126623c78b9%3A0x54736170906fce78!2sEmile+de+Blutslaan+23%2C+1702+Dilbeek%2C+Belgique!3m2!1d50.8640397!2d4.2662311!5e0!3m2!1sfr!2sfr!4v1482179682441" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <script>
+                    function myMap() {
+                        var mapCanvas = document.getElementById("map");
+                        var mapOptions = {
+                            center: new google.maps.LatLng(51.5, -0.2)
+                            , zoom: 10
+                        };
+                        var map = new google.maps.Map(mapCanvas, mapOptions);
+                    }
+                </script>
+            </fieldset>
+        </article>
+        <div>
+            <footer>Het plezier van een traditionele massage.</footer> &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>, Mai Care </div>
+    </div>
+</body>
+
+</html>

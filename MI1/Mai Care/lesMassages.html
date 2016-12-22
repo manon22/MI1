@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="beschrijving van de webpagina">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <link rel="stylesheet" href="background.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="shortcut icon" href="LOGO%20(2).ico" />
+    
+    <title>Mai care</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav> <img src="LOGO%20(2).jpg" alt="logo" style="width:115px;height:120px;" padding="1px 8px 2px 8px" ;>
+            <ul class="taal">
+                <il><a class="big" href="index.html">*Français</a></il>
+                <il><a class="big" href="indexNe.html">*Néerlandais</a></il>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a class="active" href="lesMassages.html">Les Massages</a></li>
+            <li><a href="navbar.Text.html">Contact</a></li>
+            <li><a href="horaires.html">Horaires/Tarifs</a></li>
+            <li><a href="adres.html">Adresse</a></li>
+        </ul>
+        <article>
+            <h1 class="titel">Les Massages</h1>
+            <p>Les massages thaïlandais sont parmi les plus vieux au monde, ils sont réputés pour supprimer les douleurs, évacuer le stress et dégager une sensation de bien-être.  </p>
+            
+            <ol> 1.<ins> Massage thaï traditionnel :</ins>
+                <ol> Via un massage traditionnel, les nœuds sont massé par points de pression et stimulés afin d'en réduire douleurs et blocages. Même si vous ne souffrez pas de tels maux, au terme de ce massage énergique, vos muscles se sentiront totalement relâchés et une sensation de bien-être envahira votre corps. </ol>
+            </ol>
+            <ol> 2. <ins>Massage à l'huile:</ins>
+                <ol> Un massage à l'huile à vous vocation de vous détendre dès les premiers instants. Les douleurs sont ici combattues par méthode douce. De par ses vertus, l'huile pénètre vos tissus et réduit les tensions musculaires en plus d'assouplir et nourrir votre peau. </ol>
+            </ol> 
+            <img id="myImg" src="mai33.jpg" alt="Les huiles et baumes utilisés sont de première qualité et directement importées de Thailande.
+                Les traditions de mon pays sont dès lors respectées." width="300" height="270">
+            
+            <div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            <script>
+                var modal = document.getElementById('myModal');
+                var img = document.getElementById('myImg');
+                var modalImg = document.getElementById("img01");
+                var captionText = document.getElementById("caption");
+                img.onclick = function () {
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    captionText.innerHTML = this.alt;
+                }
+                var span = document.getElementsByClassName("close")[0];
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+            </script>
+            <p><b>Les types de massages suivants s'offrent dès lors à vous :</b></p>
+            <ol> *Massage de la tête et du visage </ol>
+            <ol> *Massage des bras et mains </ol>
+            <ol> *Massage des jambes et pieds </ol>
+            <ol> *Massage du corp </ol>
+            
+            
+        </article>
+        <footer>Le bonheur d'un massage traditionnel.</footer> &copy;
+        <script>
+            document.write(new Date().getFullYear());
+        </script>, Mai Care </div>
+</body>
+
+</html>
