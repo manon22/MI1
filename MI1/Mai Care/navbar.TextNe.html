@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="beschrijving van de webpagina">
-    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="description" content="Mai Care, salon de massage">
+    <meta name="keywords" content="Mai Care, Massage, Groot-Bijgaarden">
     <meta name="viewport" content="width=device-width, height=device-height" />
     <link rel="stylesheet" href="background.css" />
     <link rel="stylesheet" href="navbar.css" />
@@ -30,33 +30,33 @@
         <article>
             <h1 class="titel">Contacten</h1>
             <p><small>Boek uw afspraak</small></p>
-            <form action="manonmichiels@hotmail.com" method="post"> </form>
+            <form action="mailto:mai.samai28@yahoo.com?SUBJECT=Reservez votre rendez-vous" method="post">
             <fieldset id="persoon">
                 <legend><strong><em>Reservatie</em></strong></legend>
                 <label for="naam">Naam</label> :
-                <input type="text" id="nom" name="nom" placeholder="Prénom">
+                <input type="text" id="nom" name="nom" placeholder="Prénom" required>
                 <br>
                 <label for="naam">Achternaam</label> :
-                <input type="text" id="nom" name="nom" placeholder="Nom de famille">
+                <input type="text" id="nom" name="nom" placeholder="Nom de famille" required>
                 <br>
                 <h2>Type massages:</h2>
-                <input type="checkbox" id="type">
+                <input type="checkbox" id="type" name="Massage_de_la_tête_et_du_visage">
                 <label for="type">Massage van het hoofd en gezicht</label>
                 <br>
-                <input type="checkbox" id="type">
+                <input type="checkbox" id="type" name="Massage_des_bras_et_mains">
                 <label for="type">Massage van de handen en armen</label>
                 <br>
-                <input type="checkbox" id="type">
+                <input type="checkbox" id="type" name="Massage_des_jambes_et_pieds">
                 <label for="type">Massage van de benen en voeten</label>
                 <br>
-                <input type="checkbox" id="type">
+                <input type="checkbox" id="type" name="Massage_du_corp">
                 <label for="type">Massage van het lichaam</label>
                 <br>
-                <input type="checkbox" id="type">
+                <input type="checkbox" id="type" name="Tous_les_massages">
                 <label for="type">Alle soorten massages</label>
                 <br>
                 <p></p>
-                <input type="date" id="datum">
+                <input type="date" id="datum" name="jour" required>
                 <p></p>
                 <select id="uur" name="uur">
                     <option disabled selected>Vereiste tijd</option>
@@ -71,6 +71,7 @@
                 <input id="send" type="submit" value="Envoyer">
                 <label for="verstuur"></label>
                 <br> </fieldset>
+            </form>
         </article>
         <div>
             <footer>Het plezier van een traditionele massage.</footer> &copy;
