@@ -130,7 +130,7 @@ td, th {
     
 }
 
-tr:nth-child(even) {
+tbody tr:nth-child(odd) {
     background-color: #dddddd;
 }
 #myImg {
