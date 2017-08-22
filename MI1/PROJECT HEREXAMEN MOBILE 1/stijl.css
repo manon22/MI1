@@ -1,0 +1,178 @@
+@media screen and (min-width: 480px)
+{ 
+    
+}
+
+
+body{
+    margin: 2% ;
+    background-color: darkseagreen;
+     
+}
+header{
+    margin: 2% 10% 5% 10%;
+    border: 8px double;
+    border-color: whitesmoke darksalmon whitesmoke darksalmon;
+    background-color: darkkhaki; 
+    backface-visibility: 0.8;
+    
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    
+    margin: 0;
+}
+h2{
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    margin: 0;
+    
+    
+}
+article{
+    
+    padding: 2% 7% 2% 7%;
+    color: 	black;
+    margin: 0 0 0 0;
+    font-size: 15px;
+}
+#onder_tekst{
+    padding: 5% 5% 5% 0% ;
+    font-size: 14px;
+}
+.links{
+    word-spacing: 12px;
+    background-color: white;
+    padding: 1px 2px 1px 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: groove 5px darksalmon;  
+    
+    
+}
+#acceuil{
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1%;
+    font-size: 10px;
+}
+#massages{
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+    word-spacing: 1px;
+    font-size: 10px;
+    
+}
+#contact{
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    
+}
+#horaires{
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+    word-spacing: 1px;
+    font-size: 10px;
+}
+#adress{
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+}
+#fr{
+    font-size: 10px;
+    text-decoration: none;
+    
+}
+#nl{
+    font-size: 10px;
+    text-decoration: none;
+}
+#huile{
+    padding: 2% 0 0 0 ;
+}
+#image{
+    padding: 0 0 0 35% ;
+}
+#tm{
+    text-align: left;
+}
+footer{
+    padding: 0 0 0 40%;
+    margin: 0 0 0 0;
+    
+}
+
+#text_h{
+    text-align: center;
+}
+table{
+    border-collapse: separate;
+    border-width: 30%;
+    margin: 2px 0 0 0;
+    font-size: 12px;
+    font-family: 'Aref Ruqaa', serif;
+    padding: 0 0 0 0 ;
+    
+    
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+ }
+td{
+    background-color: darksalmon;
+}
+th{
+    background-color: darkseagreen;
+    }
+#thai{
+    margin: 0 0 0 1%;
+    opacity: 0.6;
+    }
+.adress{
+    text-align: center;
+    line-height: 6px;
+    font-size: 11px;
+}
+.adress2{
+    text-align: center;
+    line-height: 6px;
+    font-size: 11px;
+}
+.map{
+    
+    float: inherit;
+    margin: 0 7% 0 0;
+    
+}
+#text_m{
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 0 0;
+    font-family: 'Aref Ruqaa', serif;
+}
+#adresIm{
+    float: right;
+    margin: 0 5% 0 0;
+    opacity: 0.7;
+}
+#cont{
+    font-size: 10px;
+}
+legend{
+    font-size: 12px;
+}
+

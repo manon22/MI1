@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" >
+		<meta name="description" content="beschrijving van de webpagina" >
+		<meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+        <meta name="viewport" content="width=device-width, height=device-height" />
+		<link rel="stylesheet" href="stijl.css">
+        <title>Détente avec massage</title>
+
+	</head>
+
+	<body>
+        <div class="links">
+        <a id="acceuil" href="index.html"><img src="images/home.jpg" alt="acceuil">Acceuil</a>
+        <a id="massages" href="massages.html"><img src="images/massages.jpg" alt="massages">Les massages</a>
+        <a id="contact" href="contact.html"><img src="images/contact.jpg" alt="contact">Contact</a>
+        <a id="horaires" href="horaires.html"><img src="images/horaires.jpg" alt="horaires">Horaires/Tarifs</a>
+        <a id="adress" href="adress.html"><img src="images/adresse.jpg" alt="adresse">Adresse</a>
+        <a id="fr" href="index.html"><img src="images/fr.jpg">Français</a>
+        <a id="nl" href="index_ne.html"><img src="images/nl.jpg">Nederlands</a>
+    </div>
+        <header>
+        <h1>Reservez une séance</h1>
+        
+        <article id="cont">
+    <form action="mailto:manonmichiels@hotmail.com?subject=reservez un massag" method="post">
+        <fieldset id="reserveren">
+            <legend><strong><em>Reservation</em></strong></legend>
+            <p id="contactIm"><img src="images/contact2Im.jpg" alt="contactez_nous"></p>
+            <label for="naam">Prénom</label> :
+            <input type="text" id="nom" name="prénom" value="Prénom" required>
+            <br>
+            <label for="naam">Nom de famille</label> :
+            <input type="text" id="nom" name="nom" value="Nom_de_famille" required>
+            <br>
+            <h2 id="tm">Type de massage: </h2>
+            <input type="checkbox" id="type" name="Massage_de_la_tête_et_du_visage">
+            <label for="type">Massage de la tête et du visage</label>
+            <br>
+            <input type="checkbox" id="type" name="Massage_des_bras_et_mains">
+            <label for="type">Massage des bras et mains</label>
+            <br>
+            <input type="checkbox" id="type" name="Massage_des_jambes_et_pieds">
+            <label for="type">Massage des jambes et pieds</label>
+            <br>
+            <input type="checkbox" id="type" name="Massage_du_corp">
+            <label for="type">Massage du corp</label>
+            <br>
+            <input type="checkbox" id="type" name="Tous_les_massages">
+            <label for="type">Tous les massages</label>
+            <br>
+            <p></p>
+            <input type="date" id="datum" name="jour" required>
+            <p></p>
+            <select id="uur" name="uur">
+                <option disabled selected>Temps requis</option>
+                <option value="1u">1 heure</option>
+                <option value="2u">2 heures</option>
+            </select>
+            <h3>Commentaire/Questions?</h3>
+            <textarea id="mening" name="Commentaire">Écrivez ici...</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Envoyer votre réservation</legend>
+            <input id="send" type="submit" value="Envoyer">
+            <label for="verstuur"></label>
+            <br> </fieldset>
+    </form>
+</article>
+    </header>
+
+   
+	</body>
+</html>
